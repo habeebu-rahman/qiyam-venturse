@@ -73,6 +73,7 @@ export default function Hero() {
             </p>
 
             <div className="hero-cta flex flex-wrap gap-4 pointer-events-auto">
+            <a href="#ventures">
             <button 
                 onMouseMove={handleMagneticCTA}
                 onMouseLeave={resetMagneticCTA}
@@ -82,7 +83,9 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-accent-cyan/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute -inset-px border border-accent-cyan scale-50 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-500 rounded-md blur-[2px]" />
             </button>
+            </a>
 
+            <a href="#vision">
             <button 
                 onMouseMove={handleMagneticCTA}
                 onMouseLeave={resetMagneticCTA}
@@ -90,6 +93,7 @@ export default function Hero() {
             >
                 Our Vision
             </button>
+            </a>
             </div>
         </div>
         </div>

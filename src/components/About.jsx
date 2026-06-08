@@ -74,19 +74,22 @@ export default function About() {
 
             {/* Core Master Vector Group Mapping */}
             <circle cx="200" cy="60" r="16" fill="#030712" stroke="#00E5FF" strokeWidth="2" />
-            <text x="200" y="65" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">Q</text>
+            <text x="200" y="65" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">QV</text>
             <text x="200" y="35" fill="#F8FAFC" fontSize="12" letterSpacing="1" fontFamily="sans-serif" textAnchor="middle" fontWeight="600">QIYAM VENTURES</text>
 
             {/* Child Node Array Definitions: 1. Business Solutions */}
             <circle cx="60" cy="260" r="10" fill="#07111F" stroke="#7C3AED" strokeWidth="2" />
+            <text x="60" y="265" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">BS</text>
             <text x="60" y="300" fill="#94A3B8" fontSize="11" fontFamily="sans-serif" textAnchor="middle">Business Solutions</text>
 
             {/* Child Node Array Definitions: 2. Qiyam Celebrate */}
             <circle cx="200" cy="260" r="10" fill="#07111F" stroke="#7C3AED" strokeWidth="2" />
+            <text x="200" y="265" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">QC</text>
             <text x="200" y="300" fill="#94A3B8" fontSize="11" fontFamily="sans-serif" textAnchor="middle">Qiyam Celebrate</text>
 
             {/* Child Node Array Definitions: 3. Qiyam Mart */}
             <circle cx="340" cy="260" r="10" fill="#07111F" stroke="#7C3AED" strokeWidth="2" />
+            <text x="340" y="265" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">QM</text>
             <text x="340" y="300" fill="#94A3B8" fontSize="11" fontFamily="sans-serif" textAnchor="middle">Qiyam Mart</text>
 
             <defs>

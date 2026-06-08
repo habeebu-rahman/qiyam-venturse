@@ -42,8 +42,8 @@ export default function Contact() {
             </p>
 
             <div className="mt-12 space-y-4 font-mono text-xs text-text-gray" aria-label="Corporate Contact Coordinates">
-                <p>HQ: 100 Innovation Circuit, Suite 400</p>
-                <p>E: communications@qiyamventures.io</p>
+                <p>EMAIL: communications@qiyamventures.io</p>
+                <p>phone: 123456789</p>
             </div>
             </div>
 

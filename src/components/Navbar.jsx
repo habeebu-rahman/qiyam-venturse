@@ -47,6 +47,7 @@ export default function Navbar() {
         </nav>
 
         <div>
+            <a href="#about">
             <button
             onMouseMove={handleMagnetic}
             onMouseLeave={resetMagnetic}
@@ -55,6 +56,7 @@ export default function Navbar() {
             <span className="relative z-10 transition-colors duration-300 group-hover:text-text-white">Partner Portal</span>
             <span className="absolute inset-0 bg-accent-purple scale-x-0 origin-right transition-transform duration-500 ease-out group-hover:scale-x-100 group-hover:origin-left" />
             </button>
+            </a>
         </div>
         </header>
     );

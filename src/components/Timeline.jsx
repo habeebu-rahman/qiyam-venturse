@@ -9,9 +9,9 @@ export default function Timeline() {
     const progressLineRef = useRef(null);
 
     const milestones = [
-        { year: "2023", title: "Foundation", desc: "Inception of Qiyam Ventures structural core and enterprise modeling assets." },
-        { year: "2024", title: "Expansion", desc: "Branching vectors launch into luxury event curation ecosystems via Qiyam Celebrate." },
-        { year: "2025", title: "Multi-Venture Growth", desc: "Integration of modern supply matrix layers with Qiyam Mart deployment arrays." },
+        { year: "2024", title: "Foundation", desc: "Inception of Qiyam Ventures structural core and enterprise modeling assets." },
+        { year: "2025", title: "Expansion", desc: "Branching vectors launch into luxury event curation ecosystems via Qiyam Celebrate." },
+        { year: "2026", title: "Multi-Venture Growth", desc: "Integration of modern supply matrix layers with Qiyam Mart deployment arrays." },
         { year: "Future", title: "Global Ecosystem", desc: "Cross-border system expansions running unified technological operations nodes." }
     ];
 
