@@ -11,7 +11,7 @@ import About from './components/About';
 import Ventures from './components/Ventures';
 import Metrics from './components/Metrics';
 import Vision from './components/Vision';
-// import Timeline from './components/Timeline';
+import Timeline from './components/Timeline';
 // import Contact from './components/Contact';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -66,8 +66,8 @@ export default function App() {
       <section id="ventures"><Ventures /></section>
       <section id="metrics"><Metrics /></section>
       <section id="vision"><Vision /></section>
-      {/* <section id="timeline"><Timeline /></section>
-      <section id="contact"><Contact /></section> */}
+      <section id="timeline"><Timeline /></section>
+      {/* <section id="contact"><Contact /></section> */}
     </main>
   );
 }
