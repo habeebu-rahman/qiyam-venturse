@@ -4,6 +4,15 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Component Tree Imports
+import CustomCursor from './components/CustomCursor';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+// import About from './components/About';
+// import Ventures from './components/Ventures';
+// import Metrics from './components/Metrics';
+// import Vision from './components/Vision';
+// import Timeline from './components/Timeline';
+// import Contact from './components/Contact';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,6 +58,16 @@ export default function App() {
       ref={scrollContainerRef} 
       className="relative w-full overflow-hidden bg-bg-dark-1 selection:bg-accent-cyan selection:text-bg-dark-1"
     >
+      <CustomCursor />
+      <Navbar />
+      
+      <section id="hero"><Hero /></section>
+      {/* <section id="about"><About /></section>
+      <section id="ventures"><Ventures /></section>
+      <section id="metrics"><Metrics /></section>
+      <section id="vision"><Vision /></section>
+      <section id="timeline"><Timeline /></section>
+      <section id="contact"><Contact /></section> */}
     </main>
   );
 }
