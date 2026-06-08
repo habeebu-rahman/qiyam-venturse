@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-// import About from './components/About';
+import About from './components/About';
 // import Ventures from './components/Ventures';
 // import Metrics from './components/Metrics';
 // import Vision from './components/Vision';
@@ -62,8 +62,8 @@ export default function App() {
       <Navbar />
       
       <section id="hero"><Hero /></section>
-      {/* <section id="about"><About /></section>
-      <section id="ventures"><Ventures /></section>
+      <section id="about"><About /></section>
+      {/* <section id="ventures"><Ventures /></section>
       <section id="metrics"><Metrics /></section>
       <section id="vision"><Vision /></section>
       <section id="timeline"><Timeline /></section>
