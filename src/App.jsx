@@ -10,7 +10,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Ventures from './components/Ventures';
 import Metrics from './components/Metrics';
-// import Vision from './components/Vision';
+import Vision from './components/Vision';
 // import Timeline from './components/Timeline';
 // import Contact from './components/Contact';
 
@@ -65,8 +65,8 @@ export default function App() {
       <section id="about"><About /></section>
       <section id="ventures"><Ventures /></section>
       <section id="metrics"><Metrics /></section>
-      {/* <section id="vision"><Vision /></section>
-      <section id="timeline"><Timeline /></section>
+      <section id="vision"><Vision /></section>
+      {/* <section id="timeline"><Timeline /></section>
       <section id="contact"><Contact /></section> */}
     </main>
   );
