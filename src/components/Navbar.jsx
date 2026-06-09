@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         <header 
         ref={navRef} 
-        className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-12 py-6 border-b border-white/[0.03] backdrop-blur-[5px]"
+        className="fixed top-0 left-0 w-full z-50 mix-blend-difference flex items-center justify-between px-12 py-6 border-b border-white/[0.03] backdrop-blur-[5px]"
         aria-label="Global Corporate Navigation"
         >
         <div className="flex items-center justify-start">
@@ -32,12 +32,13 @@ export default function Navbar() {
             <img 
                 src="/logo1.png" 
                 alt="QIYAM logo" 
+                loading='lazy'
                 className="h-full w-auto object-contain"
             />
             </a>
         </div>
 
-        <nav className="hidden md:flex items-center space-x-8 mix-blend-difference" aria-label="Main navigation">
+        <nav className="hidden md:flex items-center space-x-8 " aria-label="Main navigation">
             {['About', 'Ventures', 'Metrics', 'Vision', 'Timeline', 'Contact'].map((item) => (
             <a
                 key={item}
@@ -50,13 +51,13 @@ export default function Navbar() {
             ))}
         </nav>
 
-        <div className='mix-blend-difference'>
+        <div className=''>
             <button
             onMouseMove={handleMagnetic}
             onMouseLeave={resetMagnetic}
             className="relative px-6 py-2.5 rounded-full text-xs font-medium uppercase tracking-widest bg-white text-logo-lightblue overflow-hidden transition-all duration-300 group"
             >
-            <span className="relative z-10 transition-colors duration-300 group-hover:text-text-white">Partner Portal</span>
+            <span className="relative z-10 transition-colors duration-300 group-hover:text-logo-lightyellow">Partner Portal</span>
             <span className="absolute inset-0 bg-logo-lightblue scale-x-0 origin-right transition-transform duration-300 ease-out group-hover:scale-x-100 group-hover:origin-left" />
             </button>
         </div>

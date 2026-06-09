@@ -30,7 +30,7 @@ export default function Contact() {
             
             {/* Information Meta Node Block Left */}
             <div>
-            <span className="block text-logo-darkblue font-mono text-[10px] tracking-[0.3em] uppercase font-bold mb-4">
+            <span className="block text-logo-lightblue font-mono text-[10px] tracking-[0.3em] uppercase font-bold mb-4">
                 // CONNECT INTERFACE
             </span>
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-display text-text-white uppercase tracking-tight leading-none">
@@ -41,9 +41,11 @@ export default function Contact() {
                 Reach out to our global coordination framework nodes. Let us design production scaling structures tailored to your operational realities.
             </p>
 
-            <div className="mt-12 space-y-4 font-mono text-xs text-text-gray" aria-label="Corporate Contact Coordinates">
-                <p>EMAIL: communications@qiyamventures.io</p>
-                <p>phone: 123456789</p>
+            <div className="mt-12 font-mono text-xs text-text-gray" aria-label="Corporate Contact Coordinates">
+                <p>EMAIL: <a href="mailto:mail@qiyam.ventures">mail@qiyam.ventures</a></p>
+                <p>PHONE: <a href="tel:+919446122733">94 461 22 733</a></p>
+                <p>     : <a href="tel:+919496300233">94 963 00 233</a></p>
+                <p>LOCATION: <a href="https://www.google.com/maps/search/C.S+Tower/@11.27654,75.7787885,17z?hl=en&entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D" target='#blank'>PM Kutty Rd, Nadakavu, Kozhikode, 673006</a></p>
             </div>
             </div>
 

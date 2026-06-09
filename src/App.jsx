@@ -20,6 +20,27 @@ export default function App() {
   const scrollContainerRef = useRef(null);
 
   useEffect(() => {
+    const asciiArt = `
+ ..|''||   '||' '||' '|'     |     '||    ||' 
+.|'    ||   ||    || |      |||     |||  |||  
+||      ||  ||     ||      |  ||    |'|..'||  
+'|.  '. '|  ||     ||     .''''|.   | '|' ||  
+  '|...'|. .||.   .||.   .|.  .||. .|. | .||. 
+                                      v1.0.0          
+                                              
+    `;
+
+    console.clear();
+
+    console.log(`%c${asciiArt}`, "color: #c4953b; font-family: monospace; font-weight: bold; line-height: 1.2;");
+
+    console.log(
+      `%cWe Don't Build Companies. We Build Ecosystems.\n\n\n\n\n`,
+      `%cCreated And Developed By: %chttps://github.com/habeebu-rahman\n` ,
+    );
+  }, []);
+
+  useEffect(() => {
     // Instantiate high-end momentum smooth scrolling
     const lenis = new Lenis({
       duration: 1.2,

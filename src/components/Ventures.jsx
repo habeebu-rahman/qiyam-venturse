@@ -137,7 +137,7 @@ function ImageStack({ images, currentIndex }) {
         industry: "Luxury Events",
         features: ["Wedding Management", "Corporate Events", "Luxury Experiences"],
         color: "from-bg-dark-3 to-bg-dark-1",
-        accent: "#000333",
+        accent: "#001c4a",
         cards: [
             { id: 'qc-1', title: 'Gala Experiences', label: 'Curate 01', src: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop' },
             { id: 'qc-2', title: 'Premium Weddings', label: 'Curate 02', src: 'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=800&auto=format&fit=crop' },
