@@ -55,7 +55,7 @@ export default function Hero() {
             QIYAM VENTURES // MULTI-VENTURE ECOSYSTEM
             </span>
 
-            <h1 className="text-4xl sm:text-6xl md:text-8xl font-black font-display text-text-white tracking-tighter leading-[0.9] uppercase flex flex-col mb-8">
+            <h1 className="text-2xl sm:text-4xl md:text-6xl font-black font-display text-text-white tracking-tighter leading-[0.9] uppercase flex flex-col mb-8">
             {['Building', 'Extraordinary', 'Business', 'Ecosystems'].map((line, i) => (
                 <span key={i} className="block overflow-hidden h-fit py-1">
                 <span 

@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         <header 
         ref={navRef} 
-        className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-12 py-6 border-b border-white/[0.03] backdrop-blur-[2px]"
+        className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-12 py-6 border-b border-white/[0.03] backdrop-blur-[5px]"
         aria-label="Global Corporate Navigation"
         >
         <div className="flex items-center justify-start">

@@ -66,7 +66,7 @@ function ImageStack({ images, currentIndex }) {
                     </span>
                     </div>
                     <div>
-                    <h4 className="font-display font-black text-lg sm:text-xl tracking-wide text-white uppercase leading-tight drop-shadow-md">
+                    <h4 className="hidden lg:flex font-display font-black text-lg sm:text-xl tracking-wide text-white uppercase leading-tight drop-shadow-md">
                         {image.title}
                     </h4>
                     </div>
@@ -190,7 +190,7 @@ function ImageStack({ images, currentIndex }) {
                 </div>
 
                 {/* Interactive Image-Stack Terminal Space Right */}
-                <div className="hidden lg:flex w-1/2 h-full items-center justify-center pointer-events-none">
+                <div className="hidden md:flex w-1/2 h-full items-center justify-center pointer-events-none">
                 <div className="w-[85%] h-[65%] border border-white/[0.04] bg-white/[0.005] rounded-2xl relative p-12 overflow-hidden flex items-center justify-center backdrop-blur-sm group-active:scale-[0.99] transition-transform duration-100">
                     
                     {/* Tech Blueprint Grid System Base */}
