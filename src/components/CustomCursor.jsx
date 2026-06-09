@@ -44,14 +44,14 @@ export default function CustomCursor() {
         default: {
         width: 12,
         height: 12,
-        backgroundColor: '#00E5FF',
+        backgroundColor: '#c4953b',
         border: '0px solid transparent'
         },
         interactive: {
         width: 64,
         height: 64,
         backgroundColor: 'rgba(7, 17, 31, 0.6)',
-        border: '1px solid #00E5FF',
+        border: '1px solid #c7973b',
         backdropFilter: 'blur(4px)'
         }
     };

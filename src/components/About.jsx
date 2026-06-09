@@ -45,8 +45,9 @@ export default function About() {
         {/* Sticky Left Column Heading Wrapper */}
         <div className="w-full md:w-1/2 md:sticky md:top-32 h-fit">
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-display text-text-white uppercase leading-none tracking-tight max-w-md">
-            One Ecosystem. <br />
-            <span className="text-accent-cyan">Multiple</span> <br />
+            <span className="text-logo-darkblue">One </span> <br />
+            Ecosystem. <br />
+            <span className="text-logo-lightblue">Multiple</span> <br />
             Possibilities.
             </h2>
             <p className="mt-6 text-text-gray text-sm md:text-base max-w-sm leading-relaxed">
@@ -73,29 +74,29 @@ export default function About() {
             />
 
             {/* Core Master Vector Group Mapping */}
-            <circle cx="200" cy="60" r="16" fill="#030712" stroke="#00E5FF" strokeWidth="2" />
+            <circle cx="200" cy="60" r="16" fill="#030712" stroke="#c7973b" strokeWidth="2" />
             <text x="200" y="65" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">QV</text>
             <text x="200" y="35" fill="#F8FAFC" fontSize="12" letterSpacing="1" fontFamily="sans-serif" textAnchor="middle" fontWeight="600">QIYAM VENTURES</text>
 
             {/* Child Node Array Definitions: 1. Business Solutions */}
-            <circle cx="60" cy="260" r="10" fill="#07111F" stroke="#7C3AED" strokeWidth="2" />
+            <circle cx="60" cy="260" r="10" fill="#07111F" stroke="#000333" strokeWidth="2" />
             <text x="60" y="265" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">BS</text>
             <text x="60" y="300" fill="#94A3B8" fontSize="11" fontFamily="sans-serif" textAnchor="middle">Business Solutions</text>
 
             {/* Child Node Array Definitions: 2. Qiyam Celebrate */}
-            <circle cx="200" cy="260" r="10" fill="#07111F" stroke="#7C3AED" strokeWidth="2" />
+            <circle cx="200" cy="260" r="10" fill="#07111F" stroke="#000333" strokeWidth="2" />
             <text x="200" y="265" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">QC</text>
             <text x="200" y="300" fill="#94A3B8" fontSize="11" fontFamily="sans-serif" textAnchor="middle">Qiyam Celebrate</text>
 
             {/* Child Node Array Definitions: 3. Qiyam Mart */}
-            <circle cx="340" cy="260" r="10" fill="#07111F" stroke="#7C3AED" strokeWidth="2" />
+            <circle cx="340" cy="260" r="10" fill="#07111F" stroke="#000333" strokeWidth="2" />
             <text x="340" y="265" fill="#F8FAFC" fontSize="10" fontFamily="sans-serif" textAnchor="middle" fontWeight="bold">QM</text>
             <text x="340" y="300" fill="#94A3B8" fontSize="11" fontFamily="sans-serif" textAnchor="middle">Qiyam Mart</text>
 
             <defs>
                 <linearGradient id="gradient-accent" x1="200" y1="60" x2="200" y2="260" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#00E5FF" />
-                <stop offset="1" stopColor="#7C3AED" />
+                <stop stopColor="#c7973b" />
+                <stop offset="1" stopColor="#000333" />
                 </linearGradient>
             </defs>
             </svg>

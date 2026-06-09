@@ -48,9 +48,9 @@ export default function Metrics() {
             <div key={idx} className="flex flex-col border-l border-white/[0.05] pl-6 py-4">
                 <div className="font-display text-4xl sm:text-6xl font-black text-text-white tracking-tight flex items-center">
                 <span className="counter-val" data-target={metric.value}>0</span>
-                <span className="text-accent-cyan ml-0.5">{metric.suffix}</span>
+                <span className="text-logo-lightblue ml-0.5">{metric.suffix}</span>
                 </div>
-                <span className="text-xs uppercase tracking-widest font-medium text-text-gray mt-2">
+                <span className="text-xs uppercase tracking-widest font-medium text-accent-cyan mt-2">
                 {metric.label}
                 </span>
             </div>

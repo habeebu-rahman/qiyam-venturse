@@ -79,7 +79,7 @@ export default function Hero() {
                 onMouseLeave={resetMagneticCTA}
                 className="group relative px-8 py-4 bg-transparent border border-accent-cyan/30 rounded-md text-xs font-semibold uppercase tracking-widest text-text-white overflow-hidden transition-all duration-300"
             >
-                <span className="relative z-10">Explore Ventures</span>
+                <span className="relative z-10 ">Explore Ventures</span>
                 <div className="absolute inset-0 bg-accent-cyan/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="absolute -inset-px border border-accent-cyan scale-50 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-500 rounded-md blur-[2px]" />
             </button>

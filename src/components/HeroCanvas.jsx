@@ -41,7 +41,7 @@ function NodeSystem() {
         <Points ref={pointsRef} positions={positions} stride={3} frustumCulled={false}>
             <PointMaterial
             transparent
-            color="#00E5FF"
+            color="#c4953b"
             size={0.04}
             sizeAttenuation={true}
             depthWrite={false}
@@ -50,15 +50,15 @@ function NodeSystem() {
         </Points>
 
         {/* Primary Pillar Structural Connection Formations */}
-        <Line points={[connections[0], connections[1]]} color="#7C3AED" lineWidth={1.5} dashed={false} />
-        <Line points={[connections[1], connections[2]]} color="#00E5FF" lineWidth={1.5} dashed={false} />
-        <Line points={[connections[2], connections[0]]} color="#7C3AED" lineWidth={1.5} dashed={false} />
+        <Line points={[connections[0], connections[1]]} color="#000333" lineWidth={1.5} dashed={false} />
+        <Line points={[connections[1], connections[2]]} color="#c7973b" lineWidth={1.5} dashed={false} />
+        <Line points={[connections[2], connections[0]]} color="#000333" lineWidth={1.5} dashed={false} />
 
         {/* Explicit Core Mesh Glow Signifiers */}
         {connections.map((pos, idx) => (
             <mesh key={idx} position={pos}>
             <sphereGeometry args={[0.15, 16, 16]} />
-            <meshBasicMaterial color={idx % 2 === 0 ? "#00E5FF" : "#7C3AED"} transparent opacity={0.8} />
+            <meshBasicMaterial color={idx % 2 === 0 ? "#c4953b" : "#000333"} transparent opacity={0.8} />
             </mesh>
         ))}
         </group>

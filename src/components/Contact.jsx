@@ -30,12 +30,12 @@ export default function Contact() {
             
             {/* Information Meta Node Block Left */}
             <div>
-            <span className="block text-accent-purple font-mono text-[10px] tracking-[0.3em] uppercase font-bold mb-4">
+            <span className="block text-logo-darkblue font-mono text-[10px] tracking-[0.3em] uppercase font-bold mb-4">
                 // CONNECT INTERFACE
             </span>
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-display text-text-white uppercase tracking-tight leading-none">
                 Architect Your <br />
-                <span className="text-accent-purple">Ecosystem</span>.
+                <span className="text-logo-lightblue">Ecosystem</span>.
             </h2>
             <p className="text-text-gray mt-6 max-w-sm leading-relaxed text-sm md:text-base">
                 Reach out to our global coordination framework nodes. Let us design production scaling structures tailored to your operational realities.
@@ -67,7 +67,7 @@ export default function Contact() {
                             : 'top-2 text-text-gray'
                         }`}
                         >
-                        {field.label} {field.required && <span className="text-accent-purple">*</span>}
+                        {field.label} {field.required && <span className="text-logo-lightyellow">*</span>}
                         </label>
 
                         {field.type === 'textarea' ? (

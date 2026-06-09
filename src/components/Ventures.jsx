@@ -7,9 +7,6 @@ import { HalfFloatType } from './../../node_modules/three/src/constants';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// ============================================================================
-// 1. VERTICAL FULL-BLEED IMAGE STACK MODULE
-// ============================================================================
 function ImageStack({ images, currentIndex }) {
   // Slice the images array to dynamically rearrange the layout based on the active index
     const orderedImages = [
@@ -50,7 +47,7 @@ function ImageStack({ images, currentIndex }) {
                 }}
                 >
                 {/* Premium glass specular reflection sheet */}
-                <div className="absolute inset-0 bg-gradient-to-tr from-black/50 via-transparent to-white/10 mix-blend-overlay z-10 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-bg-dark-1 via-transparent to-bg-dark-2 mix-blend-overlay z-10 pointer-events-none" />
                 
                 {/* Content Asset (Full cover image fill) */}
                 <img 
@@ -126,8 +123,8 @@ function ImageStack({ images, currentIndex }) {
         title: "Qiyam Business Solutions",
         industry: "Enterprise Consulting",
         features: ["Business Strategy", "Digital Transformation", "Operations Scaling"],
-        color: "from-[#07111F] to-[#030712]",
-        accent: "#00E5FF",
+        color: "from-bg-dark-1 to-bg-dark-2",
+        accent: "#c4953b",
         cards: [
             { id: 'qbs-1', title: 'Strategy Architecture', label: 'Matrix 01', src: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop' },
             { id: 'qbs-2', title: 'Digital Scale Systems', label: 'Matrix 02', src: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop' },
@@ -139,8 +136,8 @@ function ImageStack({ images, currentIndex }) {
         title: "Qiyam Celebrate",
         industry: "Luxury Events",
         features: ["Wedding Management", "Corporate Events", "Luxury Experiences"],
-        color: "from-[#0B132B] to-[#07111F]",
-        accent: "#7C3AED",
+        color: "from-bg-dark-3 to-bg-dark-1",
+        accent: "#000333",
         cards: [
             { id: 'qc-1', title: 'Gala Experiences', label: 'Curate 01', src: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop' },
             { id: 'qc-2', title: 'Premium Weddings', label: 'Curate 02', src: 'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=800&auto=format&fit=crop' },
@@ -152,8 +149,8 @@ function ImageStack({ images, currentIndex }) {
         title: "Qiyam Mart",
         industry: "Retail & E-Commerce",
         features: ["Retail Solutions", "Marketplace", "Fast Delivery"],
-        color: "from-[#030712] to-[#0B132B]",
-        accent: "#00E5FF",
+        color: "from-bg-dark-2 to-bg-dark-3",
+        accent: "#c7973b",
         cards: [
             { id: 'qm-1', title: 'Supply Networks', label: 'Logistics Node 01', src: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
     { id: 'qm-2', title: 'Hyper-Local Delivery', label: 'Logistics Node 02', src: 'https://images.unsplash.com/photo-1585713181935-d5f622cc2415?q=80&w=800&auto=format&fit=crop' },
