@@ -13,6 +13,7 @@ import Metrics from './components/Metrics';
 import Vision from './components/Vision';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -89,6 +90,7 @@ export default function App() {
       <section id="vision"><Vision /></section>
       <section id="timeline"><Timeline /></section>
       <section id="contact"><Contact /></section>
+      <section id="footer"><Footer /></section>
     </main>
   );
 }
