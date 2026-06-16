@@ -45,9 +45,9 @@ export default function About() {
         {/* Sticky Left Column Heading Wrapper */}
         <div className="w-full md:w-1/2 md:sticky md:top-32 h-fit">
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-display text-text-white uppercase leading-none tracking-tight max-w-md">
-            <span className="text-logo-darkblue">One </span> <br />
+            <span className="text-logo-darkyellow">One </span> <br />
             Ecosystem. <br />
-            <span className="text-logo-lightblue">Multiple</span> <br />
+            <span className="text-logo-lightyellow">Multiple</span> <br />
             Possibilities.
             </h2>
             <p className="mt-6 text-text-gray text-sm md:text-base max-w-sm leading-relaxed">
