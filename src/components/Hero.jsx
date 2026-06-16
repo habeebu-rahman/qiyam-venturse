@@ -39,7 +39,7 @@ export default function Hero() {
     };
 
     return (
-        <div ref={containerRef} className="relative min-h-screen w-full flex flex-col justify-center bg-gradient-to-b from-bg-dark-1 to-bg-dark-2 bg-[length:100%_133%] px-6 lg:px-24 border-b border-white/[0.02]">
+        <div ref={containerRef} className="relative min-h-screen w-full flex flex-col justify-center bg-gradient-to-b from-bg-dark-1 from-75% to-bg-dark-2 px-6 lg:px-24 border-b border-white/[0.02]">
         
         {/* Decoupled High Performance 3D Node Subsystem Container */}
         <div 

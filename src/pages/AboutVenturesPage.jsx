@@ -76,7 +76,7 @@ export default function AboutVenturesPage() {
         {/* Floating Header Floating Navigation Control */}
         <div className="fixed top-0 left-0 w-full z-50 px-6 md:px-16 h-24 flex items-center justify-between mix-blend-difference pointer-events-none">
             <Link 
-            to="/"
+            to="/#ventures"
             className="inline-flex items-center space-x-3 pointer-events-auto group font-mono text-[10px] uppercase tracking-[0.25em] text-white/50 hover:text-white transition-colors"
             >
             <ArrowLeft size={14} className="group-hover:-translate-x-1 transition-transform" />
@@ -179,7 +179,7 @@ export default function AboutVenturesPage() {
             </div>
             
             <Link 
-            to="/"
+            to="/#about"
             className="group inline-flex items-center space-x-4 bg-white text-black px-8 py-4 rounded-full text-xs font-bold uppercase tracking-[0.2em] shadow-xl hover:bg-accent-cyan hover:text-black transition-all duration-300"
             >
             <span>Main Ecosystem</span>
